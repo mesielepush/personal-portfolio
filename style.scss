@@ -135,27 +135,6 @@ body {
     margin-left: 1.5em;
   }
   
-  .more-stuff-grid {
-    background: #050404;
-    padding: 4em 0;
-    display: grid;
-    grid-gap: 2em;
-    align-items: center;
-    grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(
-        1em,
-        1fr
-      );
-  }
-  
-  .from-left {
-    grid-column: 2 / 3;
-  }
-  
-  .from-right {
-    grid-column: 3 / 4;
-  }
-  
-
 
 .wrapper {
     /* The height needs to be set to a fixed value for the effect to work.
@@ -321,4 +300,24 @@ body {
     a{
         color:white
     }
+}
+.projects_section{
+  background-color: black;
+}
+.first_project{
+  background-color: rgb(202, 21, 21)!important;
+  width: 100%;
+  
+}
+.first_img{
+  width: 10rem!important;
+  height: 15rem!important;
+}
+.first_p{
+  text-align: justify;
+  width: 30rem;
+}
+.video{
+  
+  
 }
